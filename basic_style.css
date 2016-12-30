@@ -1,0 +1,274 @@
+.container {
+	width: 100%; /*Set the width of the entire website here */
+	margin-right: auto;
+	margin-left: auto; /* Margin-left and right are set to auto to center the container */
+}
+.seven:first-child,.delapan:first-child, .nine:first-child, .ten:first-child,.eleven:first-child,.five:first-child, .four:first-child, .threee:first-child, .two:first-child, .one:first-child, .six:first-child { 
+	margin-left: 0; /* This line of code makes the left-most column align to the left of the screen */
+}
+.eleven {
+	width: 91.5%;
+	float: left;
+	margin-left: 2%;
+}
+.ten {
+	width: 83%;
+	float: left;
+	margin-left: 2%;
+}
+.nine {
+	width: 74.5%;
+	float: left;
+	margin-left: 2%;
+}
+.delapan {
+	width: 66%;
+	float: left;
+	margin-left: 2%;
+}
+.seven {
+	width: 57.5%;
+	float: left;
+	margin-left: 2%;
+}
+.six {
+	width: 49%; /* This div spans six columns (the entire row)*/
+	float: left;
+	margin-left: 2%;
+}
+.five {
+	width: 40.5%; /* This div spans five columns */
+	margin-left: 2%;
+	float:left;
+}
+.four {
+	width: 32%;
+	float:left;
+	margin-left: 2%;
+}
+.three {
+	width: 23.5%;
+	float:left;
+	margin-left: 2%;
+}
+.two {
+	width: 15%;
+	float:left;
+	margin-left: 2%;
+
+}
+.one {
+	width: 6.5%;
+	float:left;
+	margin-left: 2%;
+}
+.row {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+	height : auto
+}
+
+/*INI BAGIAN LAYOUT*/
+
+body{
+	background : #212121;
+	padding : 0;
+}
+
+.titleBar {
+	width : 100%;
+	background-color : #ffffff;
+	height : 110px;
+}
+
+.titleBar .four{
+	background : url(logoWEB.png);
+	height : max-height;
+}
+
+p{
+	font-family : ubuntu;
+	text-align : justify;
+	text-indent : 10px;
+	color : #ffffff;
+}
+
+nav{
+	background-color : #d32f2fff;
+	height : 40px;
+}
+
+nav li{
+	display : inline-block;
+	text-align : left;
+	padding-top : 1vmin;
+	padding-bottom : 1vmin;
+	padding-left : 2vw;
+	padding-right : 2vw;
+}
+nav li a{
+	text-decoration : none;
+	color : #ffffff;
+	font-family : calibri;
+	padding-top : 2vmin;
+	font-size : 3vmin;
+}
+nav li:hover{
+	background : #607d8b;
+	height : 28px;
+	
+}
+
+.current{
+	background : #212121;
+	height : 35px;
+	padding : none;
+	margin : none;
+}
+
+.content .nine{
+	width : 72.5%;
+	height : 110vmax;
+	background : #bdbdbd;
+	margin-right : 0%;
+	margin-left : 2%;
+	margin-top : 2%;
+}
+
+.content .three{
+	width : 21.5%;
+	height : 110vmax;
+	background : #a29595;
+	margin-left : 0%;
+	margin-right : 2%;
+	margin-top : 2%;
+}
+
+.RightTitle{
+	padding : none;
+	height : 10vmin;
+	background : #f44336ff;  
+}
+
+.RightTitle h3{
+	font-family : calibri;
+	color : #ffffff;
+	font-style : bold;
+	text-align : center;
+	font-size : 2.5vw;
+	padding : 2vmin;
+}
+
+footer{
+	text-align : right;
+	background-color : #d32f2fff;
+	font-family : ubuntu;
+	height : 30px;
+}
+
+footer h2{
+	padding-top : 5px;
+	padding-right : 10px;
+	font-size : 10pt;
+	font-style : regular;
+	color : #ffffff;
+}
+
+/*AKHIR BAGIAN LAYOUT*/
+
+/*STYLE UNTUK CONTENT*/
+
+.film1 .four {
+	background : url(assasins.png);
+	background-size : 100%;
+	height : 32vw;
+	margin : 2%;
+}
+
+.film1 .seven h1{
+	font-family : ubuntu;
+	font-size : 2.5vw;
+	color : #212121;
+}
+
+.film1 .seven p{
+	font-family : ubuntu;
+	font-size : 1.5vw;
+	color : #212121;
+	text-align : left;
+}
+
+.film2 .four {
+	background : url(monstercalls.png);
+	background-size : 100%;
+	height : 32vw;
+	margin : 2%; 
+}
+
+.film2 .seven h1{
+	font-family : ubuntu;
+	font-size : 2.5vw;
+	color : #212121;
+}
+
+.film2 .seven p{
+	font-family : ubuntu;
+	font-size : 1.5vw;
+	color : #212121;
+	text-align : left;
+}
+.film3 .four {
+	background : url(cars3.png);
+	background-size : 100%;
+	height : 32vw;
+	margin : 2%; 
+}
+
+.film3 .seven h1{
+	font-family : ubuntu;
+	font-size : 2.5vw;
+	color : #212121;
+}
+
+.film3 .seven p{
+	font-family : ubuntu;
+	font-size : 1.5vw;
+	color : #212121;
+	text-align : left;
+}
+
+.right1 .eleven{
+	background : url(assasinsCrop.png);
+	background-size : 100%;	
+	height : 10vw;
+	margin : 4%;
+}
+
+.right2 .eleven {
+	background : url(fast8Crop.png);
+	background-size : 100%;
+	height : 10vw;
+	margin : 4%;
+}
+
+.right3 .eleven {
+	background : url(monstercallsCrop.png);
+	background-size : 100%;
+	height : 10vw;
+	margin : 4%;
+}
+
+.right4 .eleven {
+	background : url(singCrop.png);
+	background-size : 100%;
+	height : 10vw;
+	margin : 4%;
+}
+.right5 .eleven {
+	background : url(underworldbloodwarsCrop.png);
+	background-size : 100%;
+	height : 10vw;
+	margin : 4%;
+}
