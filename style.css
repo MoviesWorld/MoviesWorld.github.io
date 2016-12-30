@@ -1,0 +1,25 @@
+body {
+background : #196dff;
+text-align : center;
+}
+#main{
+	width : 800px;
+	height : 600px;
+	background : #ffab19;
+	margin : 10px auto;
+	border : solid 1px #ff3819;
+	padding : 10px;
+}
+h1{
+	font-family : "Skranji";
+	font : 15pt;
+	color : #ff3819;
+	text-align : center;
+}
+p{
+	font-family : ubuntu;
+	font-size : 10pt;
+	color : rgb(24,86, 163);
+	text-align : justify;
+	text-indent : 10px;
+}
