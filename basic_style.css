@@ -79,13 +79,9 @@ body{
 
 .titleBar {
 	width : 100%;
-	background-color : #ffffff;
+	background : url(titleBar.png);
+	background-size : 100% no-repeat;
 	height : 110px;
-}
-
-.titleBar .four{
-	background : url(logoWEB.png);
-	height : max-height;
 }
 
 p{
@@ -96,7 +92,7 @@ p{
 }
 
 nav{
-	background-color : #d32f2fff;
+	background-color : rgb(211,47,47);
 	height : 40px;
 }
 
@@ -137,6 +133,13 @@ nav li:hover{
 	margin-top : 2%;
 }
 
+.content .seven a:hover{
+	background : rgb(244,67,54);
+	margin-right : 2%;
+	margin-left : 2%;
+	color : #ffffff;
+}
+
 .content .three{
 	width : 21.5%;
 	height : 110vmax;
@@ -149,7 +152,7 @@ nav li:hover{
 .RightTitle{
 	padding : none;
 	height : 10vmin;
-	background : #f44336ff;  
+	background : rgb(244,67,54);  
 }
 
 .RightTitle h3{
@@ -161,10 +164,14 @@ nav li:hover{
 	padding : 2vmin;
 }
 
+.three a:hover{
+	opacity : 0.7;
+}
+
 footer{
 	text-align : right;
-	background-color : #d32f2fff;
-	font-family : ubuntu;
+	background-color : rgb(211,47,47);
+	font-family : calibri;
 	height : 30px;
 }
 
@@ -180,6 +187,10 @@ footer h2{
 
 /*STYLE UNTUK CONTENT*/
 
+.film1 .four:hover, .film2 .four:hover, .film3 .four:hover {
+	opacity : 0.7;
+}
+
 .film1 .four {
 	background : url(assasins.png);
 	background-size : 100%;
@@ -187,13 +198,13 @@ footer h2{
 	margin : 2%;
 }
 
-.film1 .seven h1{
+.film1 .seven h1, .film2 .seven h1, .film3 .seven h1{
 	font-family : ubuntu;
 	font-size : 2.5vw;
 	color : #212121;
 }
 
-.film1 .seven p{
+.film1 .seven p, .film2 .seven p, .film3 .seven p{
 	font-family : ubuntu;
 	font-size : 1.5vw;
 	color : #212121;
@@ -207,36 +218,11 @@ footer h2{
 	margin : 2%; 
 }
 
-.film2 .seven h1{
-	font-family : ubuntu;
-	font-size : 2.5vw;
-	color : #212121;
-}
-
-.film2 .seven p{
-	font-family : ubuntu;
-	font-size : 1.5vw;
-	color : #212121;
-	text-align : left;
-}
 .film3 .four {
 	background : url(cars3.png);
 	background-size : 100%;
 	height : 32vw;
 	margin : 2%; 
-}
-
-.film3 .seven h1{
-	font-family : ubuntu;
-	font-size : 2.5vw;
-	color : #212121;
-}
-
-.film3 .seven p{
-	font-family : ubuntu;
-	font-size : 1.5vw;
-	color : #212121;
-	text-align : left;
 }
 
 .right1 .eleven{

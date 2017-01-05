@@ -79,13 +79,9 @@ body{
 
 .titleBar {
 	width : 100%;
-	background-color : #ffffff;
+	background : url(titleBar.png);
+	background-size : 100% no-repeat;
 	height : 110px;
-}
-
-.titleBar .four{
-	background : url(logoWEB.png);
-	height : max-height;
 }
 
 p{
@@ -96,7 +92,7 @@ p{
 }
 
 nav{
-	background-color : #d32f2fff;
+	background-color : rgb(211,47,47);
 	height : 40px;
 }
 
@@ -137,7 +133,7 @@ nav li:hover{
 }
 .content-title {
 	width : 100%;
-	background-color : #f44336ff;
+	background-color : rgb(244,67,54);
 	height : 10vmin;
 }
 
@@ -165,25 +161,10 @@ nav li:hover{
 	padding : 1vmin;
 }
 
-.RightTitle{
-	padding : none;
-	height : 10vmin;
-	background : #f44336ff;  
-}
-
-.RightTitle h3{
-	font-family : calibri;
-	color : #ffffff;
-	font-style : bold;
-	text-align : center;
-	font-size : 2.5vw;
-	padding : 2vmin;
-}
-
 footer{
 	text-align : right;
-	background-color : #d32f2fff;
-	font-family : ubuntu;
+	background-color : rgb(211,47,47);
+	font-family : calibri;
 	height : 30px;
 }
 
@@ -197,14 +178,16 @@ footer h2{
 
 /*AKHIR BAGIAN LAYOUT*/
 
-/*STYLE UNTUK CONTENT*/
+/*ASSASSINS*/
 
 .film1 .four { /*Poster Film*/
-	background : url(assasins.png);
-	background-size : 100%;
 	background-repeat : no-repeat;
 	height : 43vw;
 	margin : 2%;
+}
+
+.film1 a .four:hover, .two a:hover { /*Poster Film*/
+	opacity : 0.7;
 }
 
 .film1 .seven h1{
@@ -218,4 +201,9 @@ footer h2{
 	font-size : 1.5vw;
 	color : #212121;
 	text-align : left;
+}
+
+.film1 .seven a:hover{
+	background-color : rgb(244,67,54);
+	color : #ffffff;
 }

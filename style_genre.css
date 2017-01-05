@@ -3,8 +3,13 @@
 	margin-right: auto;
 	margin-left: auto; /* Margin-left and right are set to auto to center the container */
 }
-.seven:first-child,.delapan:first-child, .nine:first-child, .ten:first-child,.eleven:first-child,.five:first-child, .four:first-child, .threee:first-child, .two:first-child, .one:first-child, .six:first-child { 
+.seven:first-child,.delapan:first-child, .nine:first-child, .ten:first-child,.eleven:first-child,.five:first-child, .four:first-child, .threee:first-child, .two:first-child, .one:first-child, .six:first-child , .sebelas:first-child{ 
 	margin-left: 0; /* This line of code makes the left-most column align to the left of the screen */
+}
+.sebelas {
+	width: 95%;
+	float: left;
+	margin-left: 2%;
 }
 .eleven {
 	width: 91.5%;
@@ -79,9 +84,11 @@ body{
 
 .titleBar {
 	width : 100%;
-	background-color : #ffffff;
+	background : url(titleBar.png);
+	background-size : 100% no-repeat;
 	height : 110px;
 }
+
 
 .titleBar .four{
 	background : url(logoWEB.png);
@@ -96,7 +103,7 @@ p{
 }
 
 nav{
-	background-color : #d32f2fff;
+	background-color : rgb(211,47,47);
 	height : 40px;
 }
 
@@ -130,7 +137,7 @@ nav li:hover{
 }
 
 .content-titleBar{
-	background-color : #f44336ff;
+	background-color : rgb(244,67,54);
 	height : 10vmin;
 }
 
@@ -176,12 +183,13 @@ nav li:hover{
 }
 
 .ten a:hover{
-	background-color : #f44336ff;
+	background-color : rgb(244,67,54);
+	color : #ffffff;
 }
 
 .content .eleven{
 	width : 96%;
-	height : 170vmax;
+	height : 180vmax;
 	background : #bdbdbd;
 	margin-left : 2%;
 	margin-right : 2%;
@@ -191,8 +199,8 @@ nav li:hover{
 
 footer{
 	text-align : right;
-	background-color : #d32f2fff;
-	font-family : ubuntu;
+	background-color : rgb(211,47,47);
+	font-family : calibri;
 	height : 30px;
 }
 
@@ -203,6 +211,27 @@ footer h2{
 	font-style : regular;
 	color : #ffffff;
 }
+
+.NamaAnggota .ten  p{
+	text-decoration : none;
+	text-align : left;
+	margin-left : 5vw;
+	font-family : ubuntu;
+	font-size : 2.5vw;
+	color : #212121;
+	border-top : 2px dotted gray;
+	border-bottom : 2px dotted gray;
+}
+
+.Keterangan .sebelas  p{
+	text-decoration : none;
+	text-align : left;
+	margin-left : 3vw;
+	font-family : calibri;
+	font-size : 1.8vw;
+	color : #212121;
+}
+
 
 /*AKHIR BAGIAN LAYOUT*/
 
